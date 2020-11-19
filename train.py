@@ -181,10 +181,10 @@ def main(args):
                                     epochs=1, verbose=0) 
 
         # Test student model.
-        tcl, train_clean_acc = student_model.evaluate(np.array(x_train), np.array(y_train))
+        tcl, train_clean_acc = student_model.evaluate(np.array(x_train), np.array(y_train), verbose=0)
         tscl, test_clean_acc = student_model.evaluate(np.array(x_test), np.array(y_test), verbose=0)
-        ttl, train_trig_acc = student_model.evaluate(np.array(x_poison_train), np.array(y_poison_train))
-        tstl, test_trig_acc = student_model.evaluate(np.array(x_poison_test), np.array(y_poison_test))
+        ttl, train_trig_acc = student_model.evaluate(np.array(x_poison_train), np.array(y_poison_train), verbose=0)
+        tstl, test_trig_acc = student_model.evaluate(np.array(x_poison_test), np.array(y_poison_test), verbose=0)
 
         with open(LOGFILE, 'a+') as f:
             f.write(
