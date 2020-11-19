@@ -6,7 +6,6 @@ Script to train an object recognition model.
 import argparse
 import tensorflow as tf
 import math
-import gen_util
 import os
 import random
 import pandas as pd
@@ -21,7 +20,6 @@ from keras.applications.vgg16 import preprocess_input
 from PIL import Image
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.metrics import AUC
-from gen_util import init_gpu_tf2
 
 def init_gpu_tf2(gpu):
     ''' code to initialize gpu in tf2'''
