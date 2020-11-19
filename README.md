@@ -15,7 +15,7 @@ The physical backdoor trigger is a smile emoji sticker.
 
 1. Clone this repository wherever you choose.
 
-2. Cd into the repository folder and run "pip install -r requirements.txt." This will install all the necessary dependencies.
+2. Cd into the repository folder and run "pip install -r requirements.txt". This will install all the necessary dependencies.
 
 2. Download the object recognition dataset __into the cloned folder__. The data can be found at this link: 
 
