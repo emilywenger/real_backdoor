@@ -1,6 +1,7 @@
 ### Required libraries
 
-tf >= 2.0.0
+tensorflow >= 2.0.0
+tensorflow-gpu
 sklearn
 numpy
 datetime
