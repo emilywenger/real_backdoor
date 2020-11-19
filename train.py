@@ -112,11 +112,11 @@ def main(args):
 
     # preprocess data according to chosen teacher model.
     if args.teacher == 'inception':
-        import tensorflow.keras.applications.inception_v3.preprocess_input as preprocess
+        from tensorflow.keras.applications.inception_v3 import preprocess_input as preprocess
     elif args.teacher =='resnet':
-        import tensorflow.keras.applications.resnet.preprocess_input as preprocess
+        from tensorflow.keras.applications.resnet import preprocess_input as preprocess
     elif args.teacher == 'dense':
-        import tensorflow.keras.applications.densenet.preprocess_input as preprocess
+        from tensorflow.keras.applications.densenet import preprocess_input as preprocess
     elif args.teacher == 'vgg':
         from tensorflow.keras.applications.vgg16 import preprocess_input as preprocess
     else:
