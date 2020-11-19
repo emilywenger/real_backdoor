@@ -11,6 +11,10 @@ The physical backdoor trigger is a smile emoji sticker.
 `tensoflow >= 2.0`
 `cuda >= 9.0`
 
-### Using the script
+### Using the code
 
-To train a physical backdoored model, simply run the command `python3 train.py`. You can add flags (specified in train.py) to customize the teacher model, etc. 
+1. Clone this repository wherever you choose.
+
+2. Download the object recognition dataset __into the cloned folder__. The data can be found at this link: 
+
+2. To train a physical backdoored model, simply run the command `python3 train.py`. You can add flags (specified in train.py) to customize the teacher model, etc. 

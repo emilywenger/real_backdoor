@@ -5,10 +5,8 @@ Script to train an object recognition model.
 
 import argparse
 import tensorflow as tf
-import math
 import os
 import random
-import pandas as pd
 import numpy as np
 
 from datetime import datetime

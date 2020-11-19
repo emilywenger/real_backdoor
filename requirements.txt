@@ -1,0 +1,8 @@
+### Required libraries
+
+tf >= 2.0.0
+sklearn
+numpy
+datetime
+keras
+pandas
