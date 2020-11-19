@@ -9,7 +9,7 @@ The physical backdoor trigger is a smile emoji sticker.
 ### Requirements
 
 `tensoflow >= 2.0`
-`cuda >= 9.0`
+`cuda >= 10.0`
 
 ### Using the code
 
