@@ -169,7 +169,7 @@ def main(args):
     student_model = get_model(args.teacher, len(y_train[0]), shape=shape)
 
     # train the model
-    LOGFILE = "./{}_{}_{}".format('objectrec', args.target, args.inject_rate)
+    LOGFILE = "./{}_{}_{}.log".format('objectrec', args.target, args.inject_rate)
     with open(LOGFILE, 'a+') as f:
         f.write( 'epoch,train_clean_acc,test_clean_acc,train_clean_loss,test_clean_loss,train_trig_acc,test_trig_acc,train_trig_loss,test_trig_loss\n')
 
