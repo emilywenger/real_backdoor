@@ -17,6 +17,6 @@ The physical backdoor trigger is a smile emoji sticker.
 
 2. Cd into the repository folder and run "pip install -r requirements.txt". This will install all the necessary dependencies.
 
-2. Download the object recognition dataset __into the cloned folder__. The data can be found at this link: 
+2. Download the object recognition dataset __into the cloned folder__. The data can be found at [this link](https://www.dropbox.com/s/uoumt9o3e4zhxsq/object_rec_dataset.h5?dl=0).
 
 2. To train a physical backdoored model, simply run the command `python3 train.py`. You can add flags (specified in train.py) to customize the teacher model, etc. 
